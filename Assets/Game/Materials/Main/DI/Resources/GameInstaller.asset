@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2076ee565300404ca43d661579036eb, type: 3}
+  m_Name: GameInstaller
+  m_EditorClassIdentifier: 
+  _appearEffect: {fileID: 6922687670820268647, guid: 9f26db5aa37e66d40940b7d049e364e2, type: 3}
+  _disappearEffect: {fileID: 1131783327130891035, guid: b67bcb9fea803b547ac6221972ead100, type: 3}
+  _levelManager: {fileID: 11400000, guid: c3a54b004a1b5ad4fb8a8c21b669772a, type: 2}

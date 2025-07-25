@@ -465,19 +465,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 71018840}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: c3a54b004a1b5ad4fb8a8c21b669772a, type: 2}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: LoadSurvival
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &71018840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6088,7 +6076,7 @@ GameObject:
   - component: {fileID: 1616977315}
   - component: {fileID: 1616977314}
   m_Layer: 0
-  m_Name: CompositionRoot
+  m_Name: Context
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6109,8 +6097,8 @@ MonoBehaviour:
   _volume1: {fileID: 722680135}
   _volume2: {fileID: 517406860}
   _playBtn: {fileID: 1125949914}
+  _survivalBtn: {fileID: 71018839}
   _exitBtn: {fileID: 469271316}
-  _levelManager: {fileID: 11400000, guid: c3a54b004a1b5ad4fb8a8c21b669772a, type: 2}
   _levelItem: {fileID: 5621096783032603867, guid: 2232e1368f70a3c48b09cea79da8f818, type: 3}
   _survivalModeData: {fileID: 11400000, guid: b07360b4f5adc4a4d9e090f7945f7da9, type: 2}
 --- !u!4 &1616977315
@@ -6779,10 +6767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outputField: {fileID: 5920606}
-  _states:
-  - Easy
-  - Medium
-  - Hard
+  States: []
 --- !u!1 &1773203024
 GameObject:
   m_ObjectHideFlags: 0
